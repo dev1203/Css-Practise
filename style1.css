@@ -7,12 +7,13 @@ body,html{
 	height: 100%;
 }
 .nav{
-	background-color: red;
+	background:url("89404-OKS7TF-472.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 500px;
 	font-family:'Anton',sans-serif;
 	padding: 20px;
-	border: 2px solid black;
-	text-align: center;
-	color: white;
 	font-size: 30px;
 	font-weight: 300;
 	width: 100%;
@@ -20,7 +21,7 @@ body,html{
 .main-header{
 	width: 100%;
 	padding: 5px 15px;
-	background-color: #2ddf5c;
+	background-color: #2ECC40;
 }
 
 .main-nav__item{
@@ -48,7 +49,7 @@ body,html{
 }
 .main-nav__item a{
 	text-decoration: none;
-	color: #0e4f1f;
+	color: #eb4641;
 	font-size: 18px;
 	margin-left: 8px;
 	margin-right: 8px;
@@ -56,13 +57,43 @@ body,html{
 	font-weight: bold;
 }
 .main-nav__item--cta a{
-	background-color: red;
+	background-color: #eb4641;
 	padding: 8px 16px;
 	color: white;
 	border-radius: 25px;
 	text-decoration: none;
+	border: none;
 }
 .main-nav__item--cta a:hover{
 	background-color: white;
 	color:red;
+}
+.plan{
+	background: #d5ffdc;
+	text-align: center;
+	width: 30%;
+	margin:30px 20px;
+	padding: 15px;
+	display: inline-block;
+	float: left;
+	vertical-align: middle;
+}
+.head h2{
+	text-align: center;
+	color: #eb4641;
+	font-family:'Anton',sans-serif;
+	text-transform: uppercase;
+}
+.recommended{
+	background:#2ECC40;
+	color: white;
+	box-shadow: 4px 4px 4px 2px rgba(0,0,0,0.5);
+}
+.recommended-text{
+	padding: 16px;
+	background-color:white;
+	color:#2ECC40;
+	/*display: inline-block;*/
+	/*border-radius: 25px;*/
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
