@@ -1,5 +1,6 @@
 *{
 	box-sizing: border-box;
+
 }
 body,html{
 	padding: 0px;
@@ -71,13 +72,13 @@ body,html{
 .plan{
 	background: #d5ffdc;
 	text-align: center;
-	width: 30%;
 	margin:30px 20px;
+	width: 30%;
 	padding: 15px;
 	display: inline-block;
-	float: left;
 	vertical-align: middle;
 }
+
 .head h2{
 	text-align: center;
 	color: #eb4641;
@@ -93,8 +94,6 @@ body,html{
 	padding: 16px;
 	background-color:white;
 	color:#2ECC40;
-	/*display: inline-block;*/
-	/*border-radius: 25px;*/
 	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
 }
 .plan ul{
@@ -123,4 +122,46 @@ button:hover{
 	border: 1px solid #eb4641;
 	background-color: white;
 	color: #eb4641;
+}
+.reasons{
+	background:#eb4641;
+	color: white;
+	height: 30%;
+
+}
+.reasons h1{
+	text-align: center;
+	margin: 32px;
+	padding: 30px;
+}
+.reasons ul{
+	list-style: none;
+}
+.reasons ul li{
+	width: 30%;
+	display: inline-block;
+	text-align: center;
+
+}
+.reasons ul li p{
+	font-weight: bold;
+	font-size: 22px;
+
+}
+.main-footer{
+	background-color: #434e57;
+	color: white;
+	height: 50px;
+}	
+.main-footer ul{
+	list-style: none;
+}
+.main-footer a{
+	color: white;
+	text-decoration: none;
+}
+.main-footer li{
+	display: inline-block;
+	width: 40%;
+	text-align: center;
 }
